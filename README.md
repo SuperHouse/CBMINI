@@ -1,7 +1,5 @@
 Chair Control Breakout Mini
 ===========================
-Copyright 2018-2019 SuperHouse Automation Pty Ltd <www.superhouse.tv>  
-Designed by Jonathan Oxer
 
 Connects between an electric wheelchair input device and the chair
 controller, so that the input device can be read by an Arduino and
@@ -16,6 +14,8 @@ The breakout can send the output to either a connected USB host such
 as a computer, or other devices via CAN bus so the wheelchair controls
 can be used to fly a drone or drive a remote control car.
 
+![Chair Breakout Mini](Images/CBMINI-v2_0-oblique.jpg)
+
 Features:
 
  * 1 x input device connection.
@@ -28,23 +28,33 @@ More information is available at:
   http://www.superhouse.tv/cbmini
 
 
-INSTALLATION
-------------
-The design is saved as an EAGLE project. EAGLE PCB design software is
-available from www.cadsoftusa.com free for non-commercial use. To use
-this project download it and place the directory containing these files
-into the "eagle" directory on your computer. Then open EAGLE and
-navigate to the project.
+Hardware
+--------
+The "Hardware" directory contains the PCB design as an EAGLE project.
+EAGLE PCB design software is available from Autodesk free for
+non-commercial use.
 
 
-DISTRIBUTION
-------------
-The specific terms of distribution of this project are governed by the
-license referenced below.
+Firmware
+--------
+The "Firmware" directory contains example firmware as an Arduino
+project.
 
 
-LICENSE
+Credits
 -------
-Licensed under the TAPR Open Hardware License (www.tapr.org/OHL).
-The "license" folder within this repository also contains a copy of
-this license in plain text format.
+Jonathan Oxer jon@oxer.com.au
+
+
+License
+-------
+Copyright 2017-2020 SuperHouse Automation Pty Ltd  www.superhouse.tv  
+
+The hardware portion of this project is licensed under the TAPR Open
+Hardware License (www.tapr.org/OHL). The "license" folder within this
+repository contains a copy of this license in plain text format.
+
+The software portion of this project is licensed under the Simplified
+BSD License. The "licence" folder within this project contains a
+copy of this license in plain text format.
+
